@@ -35,3 +35,11 @@ ansible-server-upgrade-report/
    - `vars:` section of the playbook:
        - Mail reports are enabled by default. Fill in data for your company's mail server (`smtp_user` and `smtp_pass` are optional).
 1. To modify the predefined template or check additional options, please review [jwkenney's ansible-job-report](https://github.com/jwkenney/ansible-job-report). His repo is very well-documented.
+
+## What can you do now
+
+- After testing the playbook, you may add a cron task to automatically upgrade your servers.
+
+## Further reading
+
+- [Ansible apt update all packages on Ubuntu / Debian Linux](https://www.cyberciti.biz/faq/ansible-apt-update-all-packages-on-ubuntu-debian-linux/)
